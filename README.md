@@ -1,18 +1,31 @@
-# razorpay_web_totalxsoftware
+# Razorpay Web Integration for TotalXSoftware
 
-A new Flutter plugin project.
+`razorpay_web_totalxsoftware` is a Flutter web package for integrating Razorpay payments using Firebase Cloud Functions. This guide will walk you through setting up a Firebase Cloud Function to create Razorpay orders and integrating it with a Flutter web application.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+- Secure Razorpay payment processing via Firebase Cloud Functions.
+- Handles payment success, failure, and error callbacks.
+- Supports customizable user profiles and data.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Prerequisites
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/to/pubspec-plugin-platforms.
+Ensure you have:
+
+- A Razorpay account with API credentials (Key ID and Key Secret).
+- A Firebase project with Cloud Functions enabled.
+- A Flutter web project ready for integration.
+
+## Firebase Cloud Function Setup
+
+### 1. Initialize Firebase Functions in your project
+
+   First, open a terminal, navigate to your Firebase project directory, and initialize Firebase Functions:
+
+   ```bash
+   firebase init functions
+   ```
+
+# Firebase Cloud Function Setup
+
+
