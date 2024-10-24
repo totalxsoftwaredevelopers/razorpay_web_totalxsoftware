@@ -1,7 +1,7 @@
 name: razorpay_web_totalxsoftware
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: 'https://razorpay.com'
 
 environment:
   sdk: ^3.5.3
@@ -12,6 +12,14 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   flutter_razorpay_web: ^0.0.3
+  cloud_firestore: ^5.4.4
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  http: ^1.2.2
+  gap: ^3.0.1
+  toastification: ^2.3.0
+  razorpay_web: ^1.4.2
+  fluttertoast: ^8.2.8
 
 dev_dependencies:
   flutter_test:
